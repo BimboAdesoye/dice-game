@@ -1,0 +1,13 @@
+main {
+  height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .inner-main {
+    flex-direction: column;
+  }
+
+  img {
+    width: 13rem;
+  }
+}
